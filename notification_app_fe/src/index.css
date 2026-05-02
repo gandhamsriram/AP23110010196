@@ -1,0 +1,30 @@
+/**
+ * Global Styles — minimal resets and smooth scrolling.
+ * Material UI handles most styling via ThemeProvider.
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth page transitions */
+#root {
+  min-height: 100vh;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(108, 99, 255, 0.3);
+  color: #fff;
+}
